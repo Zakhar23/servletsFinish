@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>Clock</servlet-name>
+        <servlet-class>ua.zakhar.java.servlets.ClockServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Clock</servlet-name>
+        <url-pattern>/clock</url-pattern>
+    </servlet-mapping>
+
+</web-app>
